@@ -33,11 +33,20 @@
 ### 00024 - Odd Numbers in Array
 
 * *Write an algorithm that counts and prints the number of odd elements in an Array?*
-* *Implement a function `createOddNumbersArray(n)` that takes a positive integer n and returns an array containing the first n odd numbers.*
 
 ### 00025 - Average of Number in Array
 
 * *Write an algorithm to find average of numbers given in an Array?*
+
+### 00026 - Odd Numbers till n
+
+* *Implement a function `createOddNumbersArray(n)` that takes a positive integer n and returns an array containing the first n odd numbers.*
+  * Example: For n = 5, the function should return [1, 3, 5, 7, 9]
+
+### 00027 - Even Numbers till n
+
+* *Implement a function `createEvenNumbersArray(n)` that takes a positive integer n and returns an array containing the first n even numbers.*
+  * Example: For n = 5, the function should return [0, 2, 4, 6, 8]
 
 ### 00030 - Linear Search
 
