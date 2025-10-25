@@ -1,0 +1,172 @@
+{
+  "Markdown Q&A Block Top Br": {
+    "prefix": "ques-top-br",
+    "scope": "markdown",
+    "body": [
+      "<br />",
+      "",
+      "***${1:Your question here}***",
+      "",
+      "* ${2:Your answer here}"
+    ],
+    "description": "Insert a Markdown Q&A block with spacing and top break"
+  },
+  "Markdown Q&A Block Bottom Br": {
+    "prefix": "ques-bottom-br",
+    "scope": "markdown",
+    "body": [
+      "***${1:Your question here}***",
+      "",
+      "* ${2:Your answer here}",
+      "",
+      "<br />"
+    ],
+    "description": "Insert a Markdown Q&A block with spacing and bottom break"
+  },
+  "Markdown Q&A Block Top Bottom Br": {
+    "prefix": "ques-top-bottom-br",
+    "scope": "markdown",
+    "body": [
+      "<br />",
+      "",
+      "***${1:Your question here}***",
+      "",
+      "* ${2:Your answer here}",
+      "",
+      "<br />"
+    ],
+    "description": "Insert a Markdown Q&A block with spacing and top, bottom break"
+  },
+  "CPP Code Block": {
+    "prefix": "cpp-code",
+    "body": ["```cpp", "//", "```"],
+    "description": "Insert a Go code block"
+  },
+  "Go Code Block": {
+    "prefix": "go-code",
+    "body": ["```go", "//", "```"],
+    "description": "Insert a Go code block"
+  },
+  "Java Code Block": {
+    "prefix": "java-code",
+    "body": ["```java", "//", "```"],
+    "description": "Insert a Java code block"
+  },
+  "JavaScript Code Block": {
+    "prefix": "js-code",
+    "body": ["```js", "//", "```"],
+    "description": "Insert a JavaScript code block"
+  },
+  "TypeScript Code Block": {
+    "prefix": "ts-code",
+    "body": ["```ts", "//", "```"],
+    "description": "Insert a TypeScript code block"
+  },
+  "Python Code Block": {
+    "prefix": "py-code",
+    "body": ["```py", "#", "```"],
+    "description": "Insert a Python code block"
+  },
+  "Bash Code Block": {
+    "prefix": "bash-code",
+    "body": ["```bash", "#", "```"],
+    "description": "Insert a Bash code block"
+  },
+  "Highlight": {
+    "prefix": "mark",
+    "body": ["<mark>${1:Content}</mark>"],
+    "description": "Insert a Bash code block"
+  },
+  "Markdown Collapsible Section": {
+    "prefix": "collapse",
+    "scope": "markdown",
+    "body": [
+      "<details>",
+      "<summary><mark><strong>Hint</strong></mark></summary>",
+      "",
+      "```js",
+      "// ${1:Your collapsible content here}",
+      "```",
+      "",
+      "</details>"
+    ],
+    "description": "Insert a collapsible section in Markdown (Notion-style toggle)"
+  },
+
+  "Question Page": {
+    "prefix": "question-page",
+    "scope": "markdown",
+    "body": [
+      "- [${1:Question Title}](#)",
+      "  - [Clue](#clue)",
+      "  - [Solutions](#solutions)",
+      "    - [C++](#c)",
+      "    - [Golang](#golang)",
+      "    - [Java](#java)",
+      "    - [JavaScript](#javascript)",
+      "    - [Python](#python)",
+      "    - [TypeScript](#typescript)",
+      "",
+      "# ${1:Question Title}",
+      "",
+      "```jsx",
+      "// ${2:Question}",
+      "```",
+      "",
+      "<hr/>",
+      "",
+      "## Clue",
+      "",
+      "<details>",
+      "<summary><strong>Clue 1</strong></summary>",
+      "",
+      "```jsx",
+      "// Clue",
+      "```",
+      "",
+      "</details>",
+      "",
+      "<hr/>",
+      "",
+      "## Solutions",
+      "",
+      "### C++",
+      "",
+      "```cpp",
+      "",
+      "```",
+      "",
+      "### Golang",
+      "",
+      "```go",
+      "",
+      "```",
+      "",
+      "### Java",
+      "",
+      "```java",
+      "",
+      "```",
+      "",
+      "### JavaScript",
+      "",
+      "```jsx",
+      "",
+      "```",
+      "",
+      "### Python",
+      "",
+      "```python",
+      "",
+      "```",
+      "",
+      "### TypeScript",
+      "",
+      "```tsx",
+      "",
+      "```",
+      ""
+    ],
+    "description": "Insert a collapsible section in Markdown (Notion-style toggle)"
+  }
+}
