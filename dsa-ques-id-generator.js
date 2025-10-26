@@ -24,8 +24,8 @@ const questionTopics = {
   //...loopsQuestions, // 104
   //...starPatternQuestions, // 110
 
-  ...numbersQuestions, // 200
-  //...arrayQuestions, // 202
+  //...numbersQuestions, // 200
+  ...arrayQuestions, // 202
 };
 
 // Minimal demo: provide text and secret, get an 8-character token.
