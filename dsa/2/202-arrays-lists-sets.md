@@ -2,15 +2,15 @@
 
 ## Single Array
 
-### 00010 - Loop and Print
+### `202-h2tNxtUL - Loop and Print`
 
 * *Write an algorithm that print all the elements in an Array?*
 
-### 00011 - Reverse Array
+### `202-4Za6IThx - Reverse Array`
 
 * *Write an algorithm that prints the elements of an Array in reverse order?*
 
-### 00020 - Sum of elements
+### `202-jPchPufA - Sum of elements`
 
 * *Write an algorithm to calculate sum of all the elements in an Array?*
 
@@ -18,128 +18,128 @@
 // .reduce((a, b) => a + b, 0)
 ```
 
-### 00021 - Sum of Even Elements
+### `202-5jXJ7ian - Sum of Even Elements`
 
 * *Write an algorithm that calculates and prints the sum of all even elements in an Array?*
 
-### 00022 - Sum of Odd Elements
+### `202-kByaIj7e - Sum of Odd Elements`
 
 * *Write an algorithm that calculates and prints the sum of all odd elements in an Array?*
 
-### 00023 - Even Numbers in Array
+### `202-xhA21Skw - Even Numbers in Array`
 
 * *Write an algorithm that counts and prints the number of even elements in an Array?*
 
-### 00024 - Odd Numbers in Array
+### `202-ic6is7aE - Odd Numbers in Array`
 
 * *Write an algorithm that counts and prints the number of odd elements in an Array?*
 
-### 00025 - Average of Number in Array
+### `202-JcAqmWDJ - Average of Number in Array`
 
 * *Write an algorithm to find average of numbers given in an Array?*
 
-### 00026 - Odd Numbers till n
+### `202-Ir7Jr0eP - Odd Numbers till n`
 
 * *Implement a function `createOddNumbersArray(n)` that takes a positive integer n and returns an array containing the first n odd numbers.*
   * Example: For n = 5, the function should return [1, 3, 5, 7, 9]
 
-### 00027 - Even Numbers till n
+### `202-TtWAETGx - Even Numbers till n`
 
 * *Implement a function `createEvenNumbersArray(n)` that takes a positive integer n and returns an array containing the first n even numbers.*
   * Example: For n = 5, the function should return [0, 2, 4, 6, 8]
 
-### 00030 - Linear Search
+### `202-cTmEq6zC - Linear Search`
 
 * *Write an algorithm to find element in an array (Linear Search)?*
 
-### 00031 - Occurrence count
+### `202-plsGrKsN - Occurrence count`
 
 * *Write an algorithm that takes an array of numbers and finds the reoccurring number?*
 * *Write an algorithm to count the number of occurrences of given number in an Array?*
 
-### 00032 - Find the Maximum
+### `202-ZMI65VPG - Find the Maximum`
 
 * *Write an algorithm that finds and prints the largest (maximum) element in an Array?*
 
-### 00033 - Find the Minimum
+### `202-k4d6K4jW - Find the Minimum`
 
 * *Write an algorithm that finds and prints the smallest (minimum) element in an Array?*
 
-### 00034 - Largest and Smallest in Array
+### `202-TUfDfuSW - Largest and Smallest in Array`
 
 * *Write an algorithm to find the largest and smallest elements in a given array. Print both values?*
 
-### 00035 - Positive and Negative Number Count
+### `202-kje0tLzy - Positive and Negative Number Count`
 
 * *Write an algorithm to count number of negative and positive numbers in Array?*
 
-### 00036 - Prime Numbers in Array
+### `202-XHbMzwct - Prime Numbers in Array`
 
 * *Write an algorithm that takes an array of numbers and finds all Prime Numbers given in an Array?*
 
-### 00037 - Largest Smallest Even Odd Prime
+### `202-fyPQ427T - Largest Smallest Even Odd Prime`
 
 * *Write an algorithm to find largest and smallest number in an array, check if the number obtained is even or odd, also check if it is Prime number?*
 
-### 00040 - Find Element Index
+### `202-zs4Yds0P - Find Element Index`
 
 * *Write an algorithm that prints the index of the first occurrence of a given element in an Array. If the element is not found, print -1?*
 
-### 00041 - Last Element Index
+### `202-NGpD1DUn - Last Element Index`
 
 * *Write an algorithm that prints the index of the last occurrence of a given element in an Array. If the element is not found, print -1?*
 
-### 00042 - Find All Indices
+### `202-ElcexyQ3 - Find All Indices`
 
 * *Write an algorithm that finds and prints all the indices of a given element in an Array. If the element is not found, print an empty array?*
 
-### 00070 - Remove Duplicate
+### `202-7pM8rYes - Remove Duplicate`
 
 * *Write an algorithm to remove duplicate elements from the the array and return array with unique elements preserving the original order?*
 
-### 00071 - All possible pairs
+### `202-XfGH8f7E - All possible pairs`
 
 * *Write an algorithm to find all the possible pairs which can be created in a given array?*
 
-### 00072 - All possible unique pairs
+### `202-6Q2ux9oY - All possible unique pairs`
 
 * *Write an algorithm to find all the possible unique pairs (pair must not repeat) that can be created in a given array?*
 
-### 00073 - All possible pairs without self pair
+### `202-IxsUPUfr - All possible pairs without self pair`
 
 * *Write an algorithm to find all the possible pairs which can be created in a given array (make sure to remove self pair)?*
 
-### 00074 - All possible pairs without self pair and symmetric duplicates
+### `202-LV50qD00 - All possible pairs without self pair and symmetric duplicates`
 
 * *Write an algorithm to find all the possible pairs which can be created in a given array (make sure to remove self pair and symmetric duplicates)?*
 
-### Split Strings by Separator
+### `202-ppikcjMe - Split Strings by Separator`
 
 * *Given an array of strings words and a character separator, split each string in words by separator. Return an array of strings containing the new strings formed after the splits, excluding empty strings.*
 
-### Knapsack Problem
+### `202-T6wzXjOE - Knapsack Problem`
 
 * *You got a list of items, where every item has a value and weight. You got a bag that holds a maximum weight of X. Write an algorithm that maximizes the value of items you put into the bag whilst ensuring that you don't exceed the maximum weight.*
 
-### Check If Sorted
+### `202-Xp1zhWVO - Check If Sorted`
 
 * *Write an algorithm that checks if an Array is sorted in non-decreasing order and prints true if it is, otherwise prints false?*
 
-### Lower Median Extractor
+### `202-6sRiHbln - Lower Median Extractor`
 
 * *Find the median value of the array. If the array length is even, return the smaller of the two middle elements. The array may contain any set of integers and must be sorted before selecting the median?*
 
-### Upper Median Extractor
+### `202-GnQyBmx0 - Upper Median Extractor`
 
 * *Find the median value of the array. If the array length is even, return the largest of the two middle elements. The input array should be sorted prior to extracting the median?*
 
-### Minimize Sum of Absolute Differences - Lower Median Edition
+### `202-j2CktONm - Minimize Sum of Absolute Differences - Lower Median Edition`
 
 * Given a sorted array of integers a, find an integer x from the array such that the value of `abs(a[0] - x) + abs(a[1] - x) + ... + abs(a[a.length - 1] - x)` ..is minimized.
   * If multiple such values of x produce the same minimum, return the smallest one
   * You must choose x from within the array, not outside
 
-### Minimize Sum of Absolute Differences - Upper Median Edition
+### `202-t42Jy77P - Minimize Sum of Absolute Differences - Upper Median Edition`
 
 * Given a sorted array of integers a, find an integer x from the array such that the value of `abs(a[0] - x) + abs(a[1] - x) + ... + abs(a[a.length - 1] - x)` ..is minimized.
   * If multiple such values of x produce the same minimum, return the largest among them
@@ -147,27 +147,27 @@
 
 ## Double Array
 
-### 00200 Merge Two Arrays
+### `202-jLEyQ9YW - Merge Two Arrays`
 
 * *Write an algorithm that merges two Arrays into a single Array, preserving the order of elements from both?*
 
-### 00201 Merge Arrays Alternately
+### `202-HQR4E1Re - Merge Arrays Alternately`
 
 * *Write an algorithm that merges two Arrays by alternating elements from each. If one Array ends before the other, append the remaining elements of the longer Array?*
 
-### 00202 Array Intersection
+### `202-9nZ3d9A3 - Array Intersection`
 
 * *Write an algorithm that finds and prints the intersection of two Arrays (elements that appear in both), preserving the order based on the first array?*
 * *You have given 2 arrays and you have to create a function that let's user know true or false weather these two arrays contain common items?*
 
-### 00203 Array Union
+### `202-cnHKdT7i - Array Union`
 
 * *Write an algorithm that finds and prints the union of two Arrays (all distinct elements from both), preserving the order based on the first appearance in either array?*
 
-### 00204 Array Difference
+### `202-Zw8mqDgP - Array Difference`
 
 * *Write an algorithm that finds and prints the difference between two Arrays (elements that appear in the first array but not in the second), preserving the order from the first array?*
 
-### Unique Elements from Both Arrays
+### `202-ynsDGr2m - Unique Elements from Both Arrays`
 
 * *Write an algorithm that finds and prints all elements that appear in either of two Arrays but not in both (symmetric difference), preserving the order based on first appearance in the original arrays?*
