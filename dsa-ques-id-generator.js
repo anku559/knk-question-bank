@@ -1,12 +1,30 @@
 const { encode, WIDTH } = require('./src/revhash');
 const { writeFileSync } = require('node:fs');
 
-// Files
+// Questions Files
+// 1-building-blocks
 const { inputOutputQuestions } = require('./_static-dsa/100');
+const { varConstQuestions } = require('./_static-dsa/101');
+const { operatorsQuestions } = require('./_static-dsa/102');
+const { conditionalsQuestions } = require('./_static-dsa/103');
+const { loopsQuestions } = require('./_static-dsa/104');
+const { starPatternQuestions } = require('./_static-dsa/110');
+
+// 2-data-types-data-structures
 const { arrayQuestions } = require('./_static-dsa/202');
+const { numbersQuestions } = require('./_static-dsa/200');
+
+// 3-algorithm-patterns
 
 const questionTopics = {
-  ...inputOutputQuestions, // 100
+  //...inputOutputQuestions, // 100
+  //...varConstQuestions, // 101
+  //...operatorsQuestions, // 102
+  //...conditionalsQuestions, // 103
+  //...loopsQuestions, // 104
+  //...starPatternQuestions, // 110
+
+  ...numbersQuestions, // 200
   //...arrayQuestions, // 202
 };
 
