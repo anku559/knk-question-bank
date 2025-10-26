@@ -43,6 +43,8 @@ if (require.main === module) {
       for (let i = 0; i < questionTopics[topics].length; i++) {
         // 100-Hello World
 
+        if (!questionTopics[topics][i].emit) continue;
+
         const title = questionTopics[topics][i].title;
         const encodedTopic = `${topics}-${title}`;
         const token = encode(encodedTopic, secret);

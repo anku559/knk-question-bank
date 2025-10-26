@@ -1,7 +1,7 @@
 const operatorsQuestions = {
   102: [
-    { title: 'Perform Arithmetic Operations', question: '' },
-    { title: 'Average of 3 Numbers', question: '' },
+    { title: 'Perform Arithmetic Operations', emit: false, question: '' },
+    { title: 'Average of 3 Numbers', emit: false, question: '' },
   ],
 };
 
