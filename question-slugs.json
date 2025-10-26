@@ -1,264 +1,32 @@
 {
   "100": [
     {
-      "topic": "Hello World",
       "order": 1,
-      "slug": "100-iMqGsls0",
-      "title": "100-iMqGsls0 - Hello World"
+      "title": "Hello World",
+      "titleId": "100-svuwYJes",
+      "titleHead": "100-svuwYJes - Hello World",
+      "question": ""
     },
     {
-      "topic": "Greet User",
       "order": 2,
-      "slug": "100-NHGI2iql",
-      "title": "100-NHGI2iql - Greet User"
+      "title": "Greet User",
+      "titleId": "100-nWW2WvwN",
+      "titleHead": "100-nWW2WvwN - Greet User",
+      "question": ""
     },
     {
-      "topic": "Email and Password",
       "order": 3,
-      "slug": "100-2UnvBi6w",
-      "title": "100-2UnvBi6w - Email and Password"
+      "title": "Email and Password",
+      "titleId": "100-oRyyxb3R",
+      "titleHead": "100-oRyyxb3R - Email and Password",
+      "question": ""
     },
     {
-      "topic": "Five Fruits",
       "order": 4,
-      "slug": "100-8KlPcW5r",
-      "title": "100-8KlPcW5r - Five Fruits"
-    }
-  ],
-  "202": [
-    {
-      "topic": "Loop and Print",
-      "order": 1,
-      "slug": "202-h2tNxtUL",
-      "title": "202-h2tNxtUL - Loop and Print"
-    },
-    {
-      "topic": "Reverse Array",
-      "order": 2,
-      "slug": "202-4Za6IThx",
-      "title": "202-4Za6IThx - Reverse Array"
-    },
-    {
-      "topic": "Sum of elements",
-      "order": 3,
-      "slug": "202-jPchPufA",
-      "title": "202-jPchPufA - Sum of elements"
-    },
-    {
-      "topic": "Sum of Even Elements",
-      "order": 4,
-      "slug": "202-5jXJ7ian",
-      "title": "202-5jXJ7ian - Sum of Even Elements"
-    },
-    {
-      "topic": "Sum of Odd Elements",
-      "order": 5,
-      "slug": "202-kByaIj7e",
-      "title": "202-kByaIj7e - Sum of Odd Elements"
-    },
-    {
-      "topic": "Even Numbers in Array",
-      "order": 6,
-      "slug": "202-xhA21Skw",
-      "title": "202-xhA21Skw - Even Numbers in Array"
-    },
-    {
-      "topic": "Odd Numbers in Array",
-      "order": 7,
-      "slug": "202-ic6is7aE",
-      "title": "202-ic6is7aE - Odd Numbers in Array"
-    },
-    {
-      "topic": "Average of Number in Array",
-      "order": 8,
-      "slug": "202-JcAqmWDJ",
-      "title": "202-JcAqmWDJ - Average of Number in Array"
-    },
-    {
-      "topic": "Odd Numbers till n",
-      "order": 9,
-      "slug": "202-Ir7Jr0eP",
-      "title": "202-Ir7Jr0eP - Odd Numbers till n"
-    },
-    {
-      "topic": "Even Numbers till n",
-      "order": 10,
-      "slug": "202-TtWAETGx",
-      "title": "202-TtWAETGx - Even Numbers till n"
-    },
-    {
-      "topic": "Linear Search",
-      "order": 11,
-      "slug": "202-cTmEq6zC",
-      "title": "202-cTmEq6zC - Linear Search"
-    },
-    {
-      "topic": "Occurrence count",
-      "order": 12,
-      "slug": "202-plsGrKsN",
-      "title": "202-plsGrKsN - Occurrence count"
-    },
-    {
-      "topic": "Find the Maximum",
-      "order": 13,
-      "slug": "202-ZMI65VPG",
-      "title": "202-ZMI65VPG - Find the Maximum"
-    },
-    {
-      "topic": "Find the Minimum",
-      "order": 14,
-      "slug": "202-k4d6K4jW",
-      "title": "202-k4d6K4jW - Find the Minimum"
-    },
-    {
-      "topic": "Largest and Smallest in Array",
-      "order": 15,
-      "slug": "202-TUfDfuSW",
-      "title": "202-TUfDfuSW - Largest and Smallest in Array"
-    },
-    {
-      "topic": "Positive and Negative Number Count",
-      "order": 16,
-      "slug": "202-kje0tLzy",
-      "title": "202-kje0tLzy - Positive and Negative Number Count"
-    },
-    {
-      "topic": "Prime Numbers in Array",
-      "order": 17,
-      "slug": "202-XHbMzwct",
-      "title": "202-XHbMzwct - Prime Numbers in Array"
-    },
-    {
-      "topic": "Largest Smallest Even Odd Prime",
-      "order": 18,
-      "slug": "202-fyPQ427T",
-      "title": "202-fyPQ427T - Largest Smallest Even Odd Prime"
-    },
-    {
-      "topic": "Find Element Index",
-      "order": 19,
-      "slug": "202-zs4Yds0P",
-      "title": "202-zs4Yds0P - Find Element Index"
-    },
-    {
-      "topic": "Last Element Index",
-      "order": 20,
-      "slug": "202-NGpD1DUn",
-      "title": "202-NGpD1DUn - Last Element Index"
-    },
-    {
-      "topic": "Find All Indices",
-      "order": 21,
-      "slug": "202-ElcexyQ3",
-      "title": "202-ElcexyQ3 - Find All Indices"
-    },
-    {
-      "topic": "Remove Duplicate",
-      "order": 22,
-      "slug": "202-7pM8rYes",
-      "title": "202-7pM8rYes - Remove Duplicate"
-    },
-    {
-      "topic": "All possible pairs",
-      "order": 23,
-      "slug": "202-XfGH8f7E",
-      "title": "202-XfGH8f7E - All possible pairs"
-    },
-    {
-      "topic": "All possible unique pairs",
-      "order": 24,
-      "slug": "202-6Q2ux9oY",
-      "title": "202-6Q2ux9oY - All possible unique pairs"
-    },
-    {
-      "topic": "All possible pairs without self pair",
-      "order": 25,
-      "slug": "202-IxsUPUfr",
-      "title": "202-IxsUPUfr - All possible pairs without self pair"
-    },
-    {
-      "topic": "All possible pairs without self pair and symmetric duplicates",
-      "order": 26,
-      "slug": "202-LV50qD00",
-      "title": "202-LV50qD00 - All possible pairs without self pair and symmetric duplicates"
-    },
-    {
-      "topic": "Split Strings by Separator",
-      "order": 27,
-      "slug": "202-ppikcjMe",
-      "title": "202-ppikcjMe - Split Strings by Separator"
-    },
-    {
-      "topic": "Knapsack Problem",
-      "order": 28,
-      "slug": "202-T6wzXjOE",
-      "title": "202-T6wzXjOE - Knapsack Problem"
-    },
-    {
-      "topic": "Check If Sorted",
-      "order": 29,
-      "slug": "202-Xp1zhWVO",
-      "title": "202-Xp1zhWVO - Check If Sorted"
-    },
-    {
-      "topic": "Lower Median Extractor",
-      "order": 30,
-      "slug": "202-6sRiHbln",
-      "title": "202-6sRiHbln - Lower Median Extractor"
-    },
-    {
-      "topic": "Upper Median Extractor",
-      "order": 31,
-      "slug": "202-GnQyBmx0",
-      "title": "202-GnQyBmx0 - Upper Median Extractor"
-    },
-    {
-      "topic": "Minimize Sum of Absolute Differences - Lower Median Edition",
-      "order": 32,
-      "slug": "202-j2CktONm",
-      "title": "202-j2CktONm - Minimize Sum of Absolute Differences - Lower Median Edition"
-    },
-    {
-      "topic": "Minimize Sum of Absolute Differences - Upper Median Edition",
-      "order": 33,
-      "slug": "202-t42Jy77P",
-      "title": "202-t42Jy77P - Minimize Sum of Absolute Differences - Upper Median Edition"
-    },
-    {
-      "topic": "Merge Two Arrays",
-      "order": 34,
-      "slug": "202-jLEyQ9YW",
-      "title": "202-jLEyQ9YW - Merge Two Arrays"
-    },
-    {
-      "topic": "Merge Arrays Alternately",
-      "order": 35,
-      "slug": "202-HQR4E1Re",
-      "title": "202-HQR4E1Re - Merge Arrays Alternately"
-    },
-    {
-      "topic": "Array Intersection",
-      "order": 36,
-      "slug": "202-9nZ3d9A3",
-      "title": "202-9nZ3d9A3 - Array Intersection"
-    },
-    {
-      "topic": "Array Union",
-      "order": 37,
-      "slug": "202-cnHKdT7i",
-      "title": "202-cnHKdT7i - Array Union"
-    },
-    {
-      "topic": "Array Difference",
-      "order": 38,
-      "slug": "202-Zw8mqDgP",
-      "title": "202-Zw8mqDgP - Array Difference"
-    },
-    {
-      "topic": "Unique Elements from Both Arrays",
-      "order": 39,
-      "slug": "202-ynsDGr2m",
-      "title": "202-ynsDGr2m - Unique Elements from Both Arrays"
+      "title": "Five Fruits",
+      "titleId": "100-gOnKaUkh",
+      "titleHead": "100-gOnKaUkh - Five Fruits",
+      "question": ""
     }
   ]
 }

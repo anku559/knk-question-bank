@@ -1,49 +1,13 @@
 const { encode, WIDTH } = require('./src/revhash');
 const { writeFileSync } = require('node:fs');
 
+// Files
+const { inputOutputQuestions } = require('./_static-dsa/100');
+const { arrayQuestions } = require('./_static-dsa/202');
+
 const questionTopics = {
-  100: ['Hello World', 'Greet User', 'Email and Password', 'Five Fruits'],
-  202: [
-    'Loop and Print',
-    'Reverse Array',
-    'Sum of elements',
-    'Sum of Even Elements',
-    'Sum of Odd Elements',
-    'Even Numbers in Array',
-    'Odd Numbers in Array',
-    'Average of Number in Array',
-    'Odd Numbers till n',
-    'Even Numbers till n',
-    'Linear Search',
-    'Occurrence count',
-    'Find the Maximum',
-    'Find the Minimum',
-    'Largest and Smallest in Array',
-    'Positive and Negative Number Count',
-    'Prime Numbers in Array',
-    'Largest Smallest Even Odd Prime',
-    'Find Element Index',
-    'Last Element Index',
-    'Find All Indices',
-    'Remove Duplicate',
-    'All possible pairs',
-    'All possible unique pairs',
-    'All possible pairs without self pair',
-    'All possible pairs without self pair and symmetric duplicates',
-    'Split Strings by Separator',
-    'Knapsack Problem',
-    'Check If Sorted',
-    'Lower Median Extractor',
-    'Upper Median Extractor',
-    'Minimize Sum of Absolute Differences - Lower Median Edition',
-    'Minimize Sum of Absolute Differences - Upper Median Edition',
-    'Merge Two Arrays',
-    'Merge Arrays Alternately',
-    'Array Intersection',
-    'Array Union',
-    'Array Difference',
-    'Unique Elements from Both Arrays',
-  ],
+  ...inputOutputQuestions, // 100
+  //...arrayQuestions, // 202
 };
 
 // Minimal demo: provide text and secret, get an 8-character token.
@@ -59,14 +23,20 @@ if (require.main === module) {
       jsonOutput[topics] = [];
 
       for (let i = 0; i < questionTopics[topics].length; i++) {
-        const token = encode(questionTopics[topics][i], secret);
+        // 100-Hello World
+
+        const title = questionTopics[topics][i].title;
+        const encodedTopic = `${topics}-${title}`;
+        const token = encode(encodedTopic, secret);
+
         // console.log(String(questionTopics[topics][i]).padEnd(20), '->', token);
 
         jsonOutput[topics].push({
-          topic: questionTopics[topics][i],
           order: i + 1,
-          slug: `${topics}-${token}`,
-          title: `${topics}-${token} - ${questionTopics[topics][i]}`,
+          title,
+          titleId: `${topics}-${token}`,
+          titleHead: `${topics}-${token} - ${title}`,
+          question: questionTopics[topics][i].question || '',
         });
       }
 
