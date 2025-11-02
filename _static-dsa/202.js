@@ -73,6 +73,12 @@ const arrayQuestions = {
         'Write an algorithm to find element in an array (Linear Search)?',
     },
     {
+      title: 'Find All Indices',
+      emit: false,
+      question:
+        'Write an algorithm that finds and prints all the indices of a given element in an Array. If the element is not found, print an empty array?',
+    },
+    {
       title: 'Occurrence count',
       emit: false,
       question: `* Write an algorithm that takes an array of numbers and finds the reoccurring number?
@@ -126,12 +132,6 @@ const arrayQuestions = {
       emit: false,
       question:
         'Write an algorithm that prints the index of the last occurrence of a given element in an Array. If the element is not found, print -1?',
-    },
-    {
-      title: 'Find All Indices',
-      emit: false,
-      question:
-        'Write an algorithm that finds and prints all the indices of a given element in an Array. If the element is not found, print an empty array?',
     },
     {
       title: 'Remove Duplicate',

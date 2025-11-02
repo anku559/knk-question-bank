@@ -1,5 +1,0 @@
-# Leetcode - Medium
-
-###
-
-*
