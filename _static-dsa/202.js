@@ -21,8 +21,8 @@ const arrayQuestions = {
     {
       title: 'Sum of elements',
       emit: false,
-      question:
-        'Write an algorithm to calculate sum of all the elements in an Array?',
+      question: `* Write an algorithm to calculate sum of all the elements in an Array?
+* Write a function sumArray that takes an array of numbers and returns the sum of all elements?`,
     },
     {
       title: 'Sum of Even Elements',
@@ -87,15 +87,15 @@ const arrayQuestions = {
     },
     {
       title: 'Find the Minimum',
-      emit: false,
+      emit: true,
       question:
         'Write an algorithm that finds and prints the smallest (minimum) element in an Array?',
     },
     {
-      title: 'Largest and Smallest in Array',
-      emit: false,
-      question:
-        'Write an algorithm to find the largest and smallest elements in a given array. Print both values?',
+      title: 'Minimum and Maximum in Array',
+      emit: true,
+      question: `* Write an algorithm to find the minimum and maximum elements in a given array. Print both values?
+* Implement a function findMinMax that takes an array of numbers and returns an object with the smallest and largest numbers?`,
     },
     {
       title: 'Positive and Negative Number Count',

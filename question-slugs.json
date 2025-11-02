@@ -1,11 +1,18 @@
 {
   "202": [
     {
-      "order": 3,
-      "title": "Modify Array",
-      "titleId": "202-x2oIxA3q",
-      "titleHead": "",
-      "question": ""
+      "order": 15,
+      "title": "Find the Minimum",
+      "titleId": "202-KWyzEZJ0",
+      "titleHead": "202-KWyzEZJ0 - Find the Minimum",
+      "question": "Write an algorithm that finds and prints the smallest (minimum) element in an Array?"
+    },
+    {
+      "order": 16,
+      "title": "Minimum and Maximum in Array",
+      "titleId": "202-2awpfjQ7",
+      "titleHead": "202-2awpfjQ7 - Minimum and Maximum in Array",
+      "question": "* Write an algorithm to find the minimum and maximum elements in a given array. Print both values?\n* Implement a function findMinMax that takes an array of numbers and returns an object with the smallest and largest numbers?"
     }
   ]
 }
