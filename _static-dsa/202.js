@@ -93,13 +93,13 @@ const arrayQuestions = {
     },
     {
       title: 'Find the Minimum',
-      emit: true,
+      emit: false,
       question:
         'Write an algorithm that finds and prints the smallest (minimum) element in an Array?',
     },
     {
       title: 'Minimum and Maximum in Array',
-      emit: true,
+      emit: false,
       question: `* Write an algorithm to find the minimum and maximum elements in a given array. Print both values?
 * Implement a function findMinMax that takes an array of numbers and returns an object with the smallest and largest numbers?`,
     },
@@ -132,6 +132,12 @@ const arrayQuestions = {
       emit: false,
       question:
         'Write an algorithm that prints the index of the last occurrence of a given element in an Array. If the element is not found, print -1?',
+    },
+    {
+      title: 'Find Missing Number',
+      emit: true,
+      question:
+        'Given an array with all integers between 1 and 100 except for one, find the missing number?',
     },
     {
       title: 'Remove Duplicate',
